@@ -129,14 +129,24 @@ The Oracle is a reviewer, not a replacement.
 
 ---
 
-## Relationship to AMP
+## Relationship to AMP and the AMP Operating Protocol
+
+To clarify terminology:
+
+- **AMP** is the AI development tool
+- **Oracle** is a built-in feature of AMP — a specialized sub-agent that invokes
+  a more capable model (e.g., GPT-5 / Gemini) for deeper analysis and critique
+- **AMP Operating Protocol** is the tool-agnostic protocol that defines
+  workflows, guardrails, and governance
 
 The Oracle Review Pattern:
-- Does not replace AMP
-- Does not weaken guardrails
-- Does not automate decisions
+- Is a workflow pattern recommended by the AMP Operating Protocol
+- May be implemented using the Oracle feature of the AMP tool
+- Does not modify or extend the protocol itself
+- Does not replace AMP or automate decisions
 
-It strengthens the AMP Operating Protocol by adding **independent critique**.
+Human decision-making and protocol guardrails remain unchanged.
+Oracle operationalizes independent critique — it does not bypass accountability.
 
 ---
 

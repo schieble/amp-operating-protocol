@@ -1,127 +1,92 @@
-# AMP Prompt — GitHub Feature Issue (Template-Aligned)
+# Rule: Generating a GitHub Feature Issue
 
-Copy this prompt into AMP and save it as a reusable prompt.
-This prompt is designed to generate GitHub feature issues that align exactly
-with the Example Project repository's Feature Issue Template.
+## Goal
 
----
+To guide an AI assistant in creating a GitHub Feature Request that aligns exactly with the repository's Feature Issue Template. The output should be ready to paste directly into GitHub.
 
-You are a GitHub Issue author for Example Project.
+## Output
 
-Your task is to help me create a **Feature Request** that aligns EXACTLY with the
-existing GitHub Feature Issue Template used by this repository.
+- **Format:** GitHub Issue (Markdown)
+- **Destination:** Paste directly into GitHub Issues
+- **Title format:** `[Feature]: <short, clear capability name>`
 
-IMPORTANT CONSTRAINTS:
-- You CANNOT create the issue directly
-- You MUST ask clarifying questions before writing anything
-- You MUST NOT invent information
-- The final output MUST be ready to paste directly into GitHub
-- Section names and structure MUST match the Feature Issue Template
-- Do NOT include task lists, status tracking, or commentary
+## Process
 
-================================================
-STEP 1: ASK QUESTIONS (WAIT FOR ANSWERS)
-================================================
+1. **Receive Initial Prompt:** The user describes a feature they want to request.
+2. **Ask Clarifying Questions:** Ask the questions below to gather all required information.
+3. **Generate Issue Content:** Based on the answers, generate the feature request using the structure outlined below.
+4. **Present Output:** Provide the final issue content ready for pasting into GitHub.
 
-Ask the following questions, one group at a time.
-Do NOT proceed to output until all questions are answered.
+## Clarifying Questions
 
-1. Problem / Why  
+Ask the following questions. Do NOT proceed until all are answered.
+
+1. **Problem / Why:**
    - What user or business problem does this feature solve?
    - Who is the primary user?
-
-2. Scope  
+2. **Scope:**
    - What is explicitly in-scope?
    - What is explicitly out-of-scope?
-
-3. Acceptance Criteria  
-   - Provide a clear, testable bullet list of conditions for success.
-
-4. Area  
-   - Choose one:
-     ui / backend / infra / integrations / stt / diarization / auth / billing / docs
-
-5. Constraints / Non-Functional Requirements  
+3. **Acceptance Criteria:** Provide a clear, testable bullet list of conditions for success.
+4. **Area:** Choose one: ui / backend / infra / integrations / stt / diarization / auth / billing / docs
+5. **Constraints / Non-Functional Requirements:**
    - Latency?
    - Cost?
    - Security?
    - Scale?
    - Compliance?
-
-6. References  
+6. **References:**
    - Related PRDs?
    - Related ADRs?
    - Related GitHub issues?
    - Mocks or diagrams?
 
-================================================
-STEP 2: GENERATE ISSUE CONTENT
-================================================
+## Feature Issue Structure
 
-Once all answers are provided:
+The generated issue must use EXACTLY this structure and section order:
 
-Generate the GitHub Issue content using EXACTLY the following structure
-and section order.
-
-------------------------------------------------
-TITLE
-------------------------------------------------
+```
 [Feature]: <short, clear capability name>
 
-------------------------------------------------
-PROBLEM / WHY
-------------------------------------------------
+## Problem / Why
 <Problem statement>
 
-------------------------------------------------
-SCOPE
-------------------------------------------------
-In-scope:
+## Scope
+**In-scope:**
 - ...
 
-Out-of-scope:
+**Out-of-scope:**
 - ...
 
-------------------------------------------------
-ACCEPTANCE CRITERIA
-------------------------------------------------
+## Acceptance Criteria
 - [ ] ...
 - [ ] ...
 - [ ] ...
 
-------------------------------------------------
-AREA
-------------------------------------------------
+## Area
 <ui | backend | infra | integrations | stt | diarization | auth | billing | docs>
 
-------------------------------------------------
-CONSTRAINTS / NON-FUNCTIONAL REQUIREMENTS
-------------------------------------------------
+## Constraints / Non-Functional Requirements
 - Latency:
 - Cost:
 - Security:
 - Scale:
 - Compliance:
 
-------------------------------------------------
-REFERENCES
-------------------------------------------------
+## References
 - PRD:
 - ADR:
 - Related issues:
 - Mocks / diagrams:
 
-------------------------------------------------
-SUGGESTED LABELS
-------------------------------------------------
+## Suggested Labels
 feature, <area>
+```
 
-================================================
-OUTPUT RULES (CRITICAL)
-================================================
+## Final Instructions
 
-- Output ONLY the final issue content
-- Do NOT explain anything
-- Do NOT add extra sections
-- Do NOT add status or task tracking
-- Do NOT reference this prompt
+1. Do NOT create the issue directly — output content only
+2. Do NOT invent information or assume answers
+3. Output ONLY the final issue content
+4. Do NOT add explanations, status tracking, or commentary
+5. Do NOT reference this prompt in the output

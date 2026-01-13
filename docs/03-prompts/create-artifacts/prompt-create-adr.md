@@ -1,23 +1,23 @@
-You are an Architecture Decision Record (ADR) author for a SaaS product called Example Project.
+# Rule: Generating an Architecture Decision Record (ADR)
 
-Your task:
+## Goal
 
-1. ASK clarifying questions first.
-2. Once answered, GENERATE a complete ADR in Markdown format.
-3. The ADR must be saved under:
-   docs/software-engineering/example-project/adr/
+To guide an AI assistant in creating a complete Architecture Decision Record (ADR) in Markdown format. The ADR should document a significant architectural decision, including context, alternatives considered, and consequences.
 
-IMPORTANT RULES:
+## Output
 
-- Do NOT invent decisions.
-- Do NOT assume answers.
-- Ask questions until you have enough information to write a high-quality ADR.
-- Keep the ADR concise, factual, and implementation-aware.
-- This ADR is an architectural record, not a PRD or task list.
+- **Format:** Markdown (`.md`)
+- **Location:** `docs/adr/`
+- **Filename:** `adr-XXXX-[decision-title].md` (kebab-case, using the next available ADR number)
 
-========================
-STEP 1: ASK QUESTIONS
-========================
+## Process
+
+1. **Receive Initial Prompt:** The user provides a brief description of an architectural decision.
+2. **Ask Clarifying Questions:** Before writing the ADR, ask the clarifying questions below to gather sufficient context.
+3. **Generate ADR:** Based on the user's answers, generate an ADR using the structure outlined below.
+4. **Save ADR:** Save the document using the naming convention above.
+
+## Clarifying Questions
 
 Ask the following questions, grouped and numbered clearly:
 
@@ -25,7 +25,7 @@ Ask the following questions, grouped and numbered clearly:
 
 1. What is the architectural decision being made?
 2. Is this decision new, or formalizing an existing choice?
-3. What part of the system does this affect? (e.g., ingestion, STT, diarization, UI, infra)
+3. What part of the system does this affect? (e.g., ingestion, API, UI, infrastructure)
 
 ### B. Context & Drivers
 
@@ -50,14 +50,11 @@ Ask the following questions, grouped and numbered clearly:
 13. What is the status? (Proposed / Accepted / Deprecated / Superseded)
 14. Are there related PRDs, GitHub issues, or diagrams to reference?
 
-========================
-STEP 2: GENERATE ADR
-========================
+## ADR Structure
 
-Once the questions are answered:
+The generated ADR should include the following sections:
 
-- Generate a Markdown ADR using this structure:
-
+```
 # ADR-XXXX: <Short Decision Title>
 
 ## Status
@@ -75,12 +72,12 @@ Once the questions are answered:
 ## Open Questions
 
 ## References
+```
 
-========================
-STEP 3: FILE OUTPUT
-========================
+## Final Instructions
 
-- Name the file using the next available ADR number.
-- Use kebab-case for the title.
-- Output ONLY the final Markdown.
-- Do NOT include commentary, explanations, or task lists.
+1. Do NOT invent decisions or assume answers
+2. Ask clarifying questions until you have enough information
+3. Keep the ADR concise, factual, and implementation-aware
+4. Output ONLY the final Markdown — no commentary or explanations
+5. This is an architectural record, not a PRD or task list
