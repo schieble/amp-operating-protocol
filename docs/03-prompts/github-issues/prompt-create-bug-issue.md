@@ -1,144 +1,92 @@
-# AMP Prompt — GitHub Bug Issue (Template-Aligned)
+# Rule: Generating a GitHub Bug Issue
 
-Copy this prompt into AMP and save it as a reusable prompt.
-This prompt is designed to generate GitHub bug issues that align exactly
-with the Example Project repository's Bug Issue Template.
+## Goal
 
----
+To guide an AI assistant in creating a GitHub Bug Report that aligns exactly with the repository's Bug Issue Template. The output should be ready to paste directly into GitHub.
 
-You are a GitHub Issue author for Example Project.
+## Output
 
-Your task is to help me create a **Bug Report** that aligns EXACTLY with the
-existing GitHub Bug Issue Template used by this repository.
+- **Format:** GitHub Issue (Markdown)
+- **Destination:** Paste directly into GitHub Issues
+- **Title format:** `[Bug]: <short, specific summary>`
 
-IMPORTANT CONSTRAINTS:
-- You CANNOT create the issue directly
-- You MUST ask clarifying questions before writing anything
-- You MUST NOT invent information
-- The final output MUST be ready to paste directly into GitHub
-- Section names and structure MUST match the Bug Issue Template
-- Do NOT include task lists, status, or commentary
+## Process
 
-================================================
-STEP 1: ASK QUESTIONS (WAIT FOR ANSWERS)
-================================================
+1. **Receive Initial Prompt:** The user describes a bug they've encountered.
+2. **Ask Clarifying Questions:** Ask the questions below to gather all required information.
+3. **Generate Issue Content:** Based on the answers, generate the bug report using the structure outlined below.
+4. **Present Output:** Provide the final issue content ready for pasting into GitHub.
 
-Ask the following questions, one group at a time.
-Do NOT proceed to output until all questions are answered.
+## Clarifying Questions
 
-1. Summary  
-   - In one sentence, what is broken?
+Ask the following questions. Do NOT proceed until all are answered.
 
-2. Severity  
-   - Choose one: sev1 / sev2 / sev3
-
-3. Area  
-   - Choose one:
-     ui / backend / infra / integrations / stt / diarization / auth / billing / docs
-
-4. Steps to Reproduce  
-   - Provide exact, numbered steps.
-
-5. Expected Behavior  
-   - What should have happened?
-
-6. Actual Behavior  
-   - What actually happened?
-
-7. Environment  
-   - Env: local / dev / staging / prod  
-   - Browser / OS (if applicable)  
-   - Commit or branch (if known)  
+1. **Summary:** In one sentence, what is broken?
+2. **Severity:** Choose one: sev1 / sev2 / sev3
+3. **Area:** Choose one: ui / backend / infra / integrations / stt / diarization / auth / billing / docs
+4. **Steps to Reproduce:** Provide exact, numbered steps.
+5. **Expected Behavior:** What should have happened?
+6. **Actual Behavior:** What actually happened?
+7. **Environment:**
+   - Env: local / dev / staging / prod
+   - Browser / OS (if applicable)
+   - Commit or branch (if known)
    - User role or account context (if relevant)
-
-8. Logs / Screenshots  
-   - Any logs, error messages, screenshots, or videos?
-   - If none, answer "None".
-
-9. Verification  
-   - Can you reproduce this reliably? (yes/no)  
-   - Is this a regression? (yes/no)  
+8. **Logs / Screenshots:** Any logs, error messages, screenshots, or videos? (If none, answer "None")
+9. **Verification:**
+   - Can you reproduce this reliably? (yes/no)
+   - Is this a regression? (yes/no)
    - Have you confirmed logs/screenshots contain no secrets? (yes/no)
 
-================================================
-STEP 2: GENERATE ISSUE CONTENT
-================================================
+## Bug Issue Structure
 
-Once all answers are provided:
+The generated issue must use EXACTLY this structure and section order:
 
-Generate the GitHub Issue content using EXACTLY the following structure
-and section order.
-
-------------------------------------------------
-TITLE
-------------------------------------------------
+```
 [Bug]: <short, specific summary>
 
-------------------------------------------------
-SUMMARY
-------------------------------------------------
+## Summary
 <Summary text>
 
-------------------------------------------------
-SEVERITY
-------------------------------------------------
+## Severity
 <sev1 | sev2 | sev3>
 
-------------------------------------------------
-AREA
-------------------------------------------------
+## Area
 <ui | backend | infra | integrations | stt | diarization | auth | billing | docs>
 
-------------------------------------------------
-STEPS TO REPRODUCE
-------------------------------------------------
+## Steps to Reproduce
 1.
 2.
 3.
 
-------------------------------------------------
-EXPECTED BEHAVIOR
-------------------------------------------------
+## Expected Behavior
 <Expected behavior>
 
-------------------------------------------------
-ACTUAL BEHAVIOR
-------------------------------------------------
+## Actual Behavior
 <Actual behavior>
 
-------------------------------------------------
-ENVIRONMENT
-------------------------------------------------
+## Environment
 - Env:
 - Browser / OS:
 - Commit / Branch:
 - User / Role:
 
-------------------------------------------------
-LOGS / SCREENSHOTS
-------------------------------------------------
-```txt
+## Logs / Screenshots
 <paste logs here, or "None">
-```
 
-------------------------------------------------
-VERIFICATION
-------------------------------------------------
+## Verification
 - Reproducible: <yes/no>
 - Regression: <yes/no>
 - Logs sanitized: <yes/no>
 
-------------------------------------------------
-SUGGESTED LABELS
-------------------------------------------------
+## Suggested Labels
 bug, <severity>, <area>
+```
 
-================================================
-OUTPUT RULES (CRITICAL)
-================================================
+## Final Instructions
 
-- Output ONLY the final issue content
-- Do NOT explain anything
-- Do NOT add extra sections
-- Do NOT add checklists or tasks
-- Do NOT reference this prompt
+1. Do NOT create the issue directly — output content only
+2. Do NOT invent information or assume answers
+3. Output ONLY the final issue content
+4. Do NOT add explanations, checklists, or commentary
+5. Do NOT reference this prompt in the output

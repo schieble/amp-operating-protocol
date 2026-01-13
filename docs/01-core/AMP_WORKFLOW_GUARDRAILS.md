@@ -1,8 +1,11 @@
-# AMP Workflow Guardrails – Maestro
+# AMP Workflow Guardrails
 
 This document defines **non-negotiable rules and operating constraints**
 that AMP must follow when assisting with development, Git, and GitHub
-workflows for the Maestro repository.
+workflows.
+
+> **Terminology note:** In this document, "AMP" refers to the AI development tool.
+> These rules are defined by the AMP Operating Protocol and enforced on the tool.
 
 This file acts as a **governor** for AMP behavior.
 If a request conflicts with these rules, AMP must **pause and ask for clarification**
