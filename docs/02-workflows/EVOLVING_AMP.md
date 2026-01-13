@@ -4,13 +4,13 @@ AMP Operating Protocol is designed to evolve.
 However, it must evolve **deliberately** to avoid drift, loss of safety,
 or erosion of its core principles.
 
-This document defines how to evolve AMP responsibly over time.
+This document defines how to evolve the AMP Operating Protocol responsibly over time.
 
 ---
 
 ## Why Evolution Needs Rules
 
-AMP is a protocol, not a static artifact.
+The AMP Operating Protocol is not a static artifact.
 
 Without explicit evolution rules:
 - Guardrails get bypassed “temporarily”
@@ -33,13 +33,13 @@ The following are **core invariants** and should change rarely:
 - Intent precedes execution
 - High-impact actions require approval
 
-If these change, AMP itself has changed.
+If these change, the AMP Operating Protocol itself has changed.
 
 ---
 
 ## What Is Safe to Customize
 
-You are expected to customize AMP to your context.
+You are expected to customize the AMP Operating Protocol to your context.
 
 Safe areas for customization include:
 - Branching strategies
@@ -55,7 +55,7 @@ Customization should reflect reality, not preference.
 
 ## Dimensions of Change
 
-AMP evolves along three primary dimensions:
+The AMP Operating Protocol evolves along three primary dimensions:
 
 1. **Rules**  
    Behavioral constraints and guardrails
@@ -74,7 +74,7 @@ Avoid simultaneous changes across dimensions.
 
 ## How to Make Changes Safely
 
-When evolving AMP:
+When evolving the AMP Operating Protocol:
 
 1. Identify the problem clearly
 2. Change the smallest thing that could help
@@ -118,7 +118,7 @@ Re-anchor to core invariants.
 
 ## Versioning Strategy
 
-AMP uses semantic versioning:
+The AMP Operating Protocol uses semantic versioning:
 
 - **MAJOR**: Breaking changes to core invariants
 - **MINOR**: New workflows or prompts
@@ -144,7 +144,7 @@ Only promote patterns to core after repeated validation.
 ## When to Slow Evolution
 
 Slow down changes when:
-- Multiple teams rely on AMP
+- Multiple teams rely on the AMP Operating Protocol
 - High-risk systems are involved
 - Changes affect guardrails or authority boundaries
 
@@ -154,7 +154,7 @@ Stability is a feature.
 
 ## Summary
 
-AMP should evolve:
+The AMP Operating Protocol should evolve:
 - Intentionally
 - Transparently
 - Incrementally

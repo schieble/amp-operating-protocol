@@ -136,7 +136,7 @@ The Oracle Review Pattern:
 - Does not weaken guardrails
 - Does not automate decisions
 
-It strengthens AMP by adding **independent critique**.
+It strengthens the AMP Operating Protocol by adding **independent critique**.
 
 ---
 
@@ -155,7 +155,7 @@ without adding heavy process.
 
 ## Final Note
 
-The Oracle Review Pattern reflects a core AMP belief:
+The Oracle Review Pattern reflects a core belief of the AMP Operating Protocol:
 
 > High‑quality systems emerge from deliberate disagreement,
 > not unquestioned confidence.

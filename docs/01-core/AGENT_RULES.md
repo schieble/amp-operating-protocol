@@ -77,7 +77,7 @@ Allowed categories include:
 - All changes must be merged via Pull Requests
 - PR structure, merge strategy, and approval requirements are governed by:
   - the repository PR template
-  - AMP workflow guardrails
+  - AMP Operating Protocol workflow guardrails
 - Do not bypass PRs for convenience or speed
 
 ---

@@ -1,6 +1,6 @@
 # AMP Operating Protocol — Common Failure Modes
 
-AMP is designed to be disciplined and safe. When it fails, it usually fails in
+The AMP Operating Protocol is designed to be disciplined and safe. When it fails, it usually fails in
 predictable ways. This document lists common failure modes, why they happen,
 and how to prevent them.
 
@@ -56,7 +56,7 @@ Use this as a quick diagnostic when work starts to feel chaotic or low-quality.
 - Review becomes superficial when output volume is high
 
 **Prevention**
-- Use AMP primarily for planning, decomposition, and critique
+- Use AI tools primarily for planning, decomposition, and critique
 - Keep code changes reviewable and incremental
 - Require tests and explainability for non-trivial changes
 
@@ -204,7 +204,7 @@ If things feel off, ask:
 
 ## Summary
 
-AMP succeeds when:
+The AMP Operating Protocol succeeds when:
 - Humans stay engaged
 - Intent is explicit
 - Guardrails are respected

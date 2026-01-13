@@ -7,16 +7,21 @@ If a term is used in documentation and is not listed here, it should be added.
 
 ---
 
-## AMP (AI Management Protocol)
+## Amp (the tool)
 
-A disciplined operating protocol for human–AI collaboration in software development.
-AMP defines rules, workflows, and constraints that govern how AI agents assist humans
-without replacing judgment or accountability.
+Amp is an AI-powered coding agent available in the terminal and as editor integrations (for example VS Code and other supported editors). It’s designed to help you build software by “wielding the full power of leading models.” See: [ampcode.com](https://ampcode.com/).
 
-AMP is tool-agnostic and documentation-first.
+In this repository, Amp is one example of an AI development tool you can use alongside this protocol; it is not the protocol itself.
 
 ---
 
+## AMP Operating Protocol
+
+The **AMP Operating Protocol** is the tool-agnostic, documentation-first process defined in this repository: rules, guardrails, workflows, and prompt templates that govern how humans and AI tools collaborate on real software projects.
+
+It is designed so humans own intent and accountability, while AI tools assist execution under explicit constraints.
+
+---
 ## Operating Protocol
 
 A formalized set of rules, invariants, and interaction patterns that define how
@@ -28,7 +33,7 @@ Unlike an operating model, a protocol emphasizes explicit contracts and constrai
 
 ## Agent
 
-An AI system operating under explicit constraints defined by AMP.
+An AI system operating under explicit constraints defined by the AMP Operating Protocol.
 An agent may generate documents, propose code, or execute commands only within
 approved boundaries.
 
@@ -41,7 +46,7 @@ Agents do not own outcomes.
 A design principle where humans retain decision authority and accountability.
 AI agents may propose actions, but humans approve, reject, or modify them.
 
-AMP intentionally prevents fully autonomous operation.
+The AMP Operating Protocol intentionally prevents fully autonomous operation.
 
 ---
 
@@ -69,7 +74,7 @@ Guardrails prioritize safety over speed.
 
 ## Intent vs Execution
 
-A core AMP principle.
+A core principle of the AMP Operating Protocol.
 
 - **Intent** describes *what* and *why* (PRDs, ADRs, task plans)
 - **Execution** describes *how* (code changes)
@@ -114,7 +119,7 @@ A task list should guide a junior developer without requiring interpretation.
 
 ## Oracle
 
-An independent AI reviewer used to critique documents produced with AMP.
+An independent AI reviewer used to critique documents produced using AI tools under the AMP Operating Protocol.
 The Oracle:
 - Does not generate new work
 - Challenges assumptions
@@ -139,7 +144,7 @@ Skipping clarifying questions is a common failure mode.
 ## Invention (Hallucination)
 
 The act of fabricating requirements, facts, or decisions not explicitly provided.
-AMP explicitly forbids invention.
+The AMP Operating Protocol explicitly forbids invention.
 
 When information is unknown, it should be marked as unknown or TBD.
 
@@ -157,7 +162,7 @@ Low-risk actions (e.g., running tests) may be pre-approved.
 ## Feature Branch
 
 A short-lived Git branch used to implement a specific change.
-All work under AMP occurs in feature branches.
+All work under the AMP Operating Protocol occurs in feature branches.
 
 Direct commits to protected branches are forbidden.
 
@@ -194,7 +199,7 @@ GitHub Projects reflect reality and replace informal status tracking.
 
 ## Inbox / Triage / Ready / In Progress / In Review / Done
 
-Explicit work states used in AMP-aligned GitHub Projects.
+Explicit work states used in AMP Operating Protocol-aligned GitHub Projects.
 
 These states represent actual work status, not intention.
 
@@ -234,15 +239,15 @@ Handoffs preserve continuity across sessions.
 
 ## Failure Mode
 
-A predictable way in which AMP breaks down when misused.
+A predictable way in which the AMP Operating Protocol breaks down when misused.
 Failure modes are documented to prevent repeated mistakes.
 
 ---
 
 ## Tool-Agnostic
 
-A design principle where AMP does not depend on a specific AI tool or editor.
-AMP may be used with AMP, Cursor, Copilot, or other systems.
+A design principle where the AMP Operating Protocol does not depend on a specific AI tool or editor.
+The AMP Operating Protocol may be used with AMP, Cursor, Copilot, or other AI tools.
 
 Only the protocol matters.
 
@@ -251,14 +256,14 @@ Only the protocol matters.
 ## Discipline
 
 The intentional tradeoff of speed for correctness, safety, and maintainability.
-Discipline is a core feature of AMP, not a side effect.
+Discipline is a core feature of the AMP Operating Protocol, not a side effect.
 
 ---
 
 ## Accountability
 
 The principle that humans remain responsible for outcomes, regardless of AI assistance.
-AMP explicitly prevents responsibility from being delegated to AI.
+The AMP Operating Protocol explicitly prevents responsibility from being delegated to AI.
 
 ---
 
@@ -267,14 +272,14 @@ AMP explicitly prevents responsibility from being delegated to AI.
 Unintentional deviation from core rules and constraints over time.
 Drift often occurs when guardrails are bypassed “temporarily.”
 
-AMP evolution is designed to minimize drift.
+AMP Operating Protocol evolution is designed to minimize drift.
 
 ---
 
 ## Versioning
 
 The practice of tracking meaningful changes to rules, workflows, and prompts.
-AMP uses semantic versioning to signal stability and breaking changes.
+The AMP Operating Protocol uses semantic versioning to signal stability and breaking changes.
 
 ---
 
