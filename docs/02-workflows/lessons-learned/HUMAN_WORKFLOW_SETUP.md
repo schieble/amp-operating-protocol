@@ -170,4 +170,4 @@ This human workflow emphasizes:
 - Tiered trust
 - Human accountability
 
-AMP is most effective when automation is **deliberate**, not invisible.
+AI-assisted development under the AMP Operating Protocol is most effective when automation is **deliberate**, not invisible.

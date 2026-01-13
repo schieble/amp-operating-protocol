@@ -1,7 +1,7 @@
 # AMP Best Practices
 
 **Purpose:** Document effective patterns for working with AMP on complex software projects.  
-**Audience:** Teams adopting AMP for production development.  
+**Audience:** Teams adopting the AMP Operating Protocol for production development.  
 **Last Updated:** 2026-01-11
 
 ---
@@ -50,7 +50,7 @@ Start sessions by attaching:
 
 ### 2.1 PRD Structure
 
-PRDs should be AMP-friendly:
+PRDs should be structured for use with AI tools:
 
 ```markdown
 # Feature Name PRD

@@ -3,7 +3,7 @@
 This directory contains **optional operational prompts** for managing GitHub
 using the AMP Operating Protocol.
 
-These prompts apply AMP principles to *project hygiene and governance*,
+These prompts apply AMP Operating Protocol principles to *project hygiene and governance*,
 not to application logic.
 
 ---
@@ -14,7 +14,7 @@ These prompts help with:
 
 - Creating and maintaining a high-quality GitHub README
 - Defining a consistent GitHub Projects workflow
-- Migrating existing issues into an AMP-aligned structure
+- Migrating existing issues into an AMP Operating Protocol-aligned structure
 - Performing periodic project health checks
 
 They are designed to:
@@ -28,7 +28,7 @@ They are designed to:
 
 These prompts are **not**:
 
-- Required to use AMP
+- Required to use the AMP Operating Protocol
 - Part of the core protocol
 - Authoritative rules
 - Application-specific logic
@@ -44,14 +44,14 @@ They are optional helpers.
 - Review and edit results before applying changes
 - Do not blindly overwrite existing project structure
 
-These prompts follow the same discipline as the rest of AMP:
+These prompts follow the same discipline as the rest of the AMP Operating Protocol:
 **humans decide, AI assists**.
 
 ---
 
 ## Relationship to AMP
 
-These prompts demonstrate how AMP can be applied beyond code and documents,
+These prompts demonstrate how the AMP Operating Protocol can be applied beyond code and documents,
 extending into day-to-day project operations.
 
 If they do not fit your workflow, you may safely ignore them.
@@ -67,4 +67,4 @@ Use these prompts when:
 
 Ignore them when they are unnecessary.
 
-AMP remains fully functional either way.
+The AMP Operating Protocol remains fully functional either way.

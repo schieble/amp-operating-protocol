@@ -2,14 +2,14 @@
 
 Thank you for your interest in contributing to **AMP Operating Protocol**.
 
-AMP is an operating protocol for disciplined human–AI collaboration in software
+The AMP Operating Protocol is an operating protocol for disciplined human–AI collaboration in software
 development. It is documentation- and process-first, not a code framework.
 
 ---
 
 ## Philosophy
 
-AMP exists to help humans work *with* AI agents responsibly.
+The AMP Operating Protocol exists to help humans work *with* AI agents responsibly.
 
 Good contributions:
 - Increase clarity
@@ -18,7 +18,7 @@ Good contributions:
 - Reflect real-world usage
 - Avoid hidden automation
 
-If a change makes AMP faster but less safe, it is unlikely to be accepted.
+If a change makes the AMP Operating Protocol faster but less safe, it is unlikely to be accepted.
 
 ---
 
@@ -41,7 +41,7 @@ We generally avoid:
 
 ## Tooling
 
-AMP is **tool-agnostic**.
+The AMP Operating Protocol is **tool-agnostic**.
 
 You may use:
 - AMP
@@ -49,7 +49,7 @@ You may use:
 - GitHub Copilot
 - Other AI-assisted editors or agents
 
-As long as core AMP principles are preserved:
+As long as core AMP Operating Protocol principles are preserved:
 - Clarifying questions before generation
 - No invention of requirements
 - Separation of intent and execution
